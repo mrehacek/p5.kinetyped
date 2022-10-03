@@ -2,6 +2,8 @@
 
 A [_p5.js_](https://github.com/processing/p5.js) library for generative typography that allows you to convert text into points.
 
+![Opentype.js showcase](public/title.png)
+
 The library is written in TypeScript and uses [_opentype.js_](https://github.com/opentypejs/opentype.js) under the hood. It is meant as continuation of the old _geomerative_ library for p5.
 
 # Usage
@@ -16,7 +18,7 @@ Download the [build](dist/p5.kinetyped.umd.cjs) and link it to the head section 
 ```
 
 The funtions of the library are then accessible under global variable __p5kt__.
-
+image.png
 ## Functions
 ### _async_ ```loadFont(fontPath: string)```
 Load a font file from local path or URL asynchronously. Make _setup_ function async and call it inside there.
