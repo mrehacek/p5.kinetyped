@@ -1,0 +1,31 @@
+{
+  "name": "p5.kinetyped",
+  "version": "0.1.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/p5.kinetyped.umd.cjs",
+  "module": "./dist/p5.kinetyped.js",
+  "exports": {
+    ".": {
+      "import": "./dist/p5.kinetyped.js",
+      "require": "./dist/p5.kinetyped.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "@types/opentype.js": "^1.3.4",
+    "@types/p5": "^1.4.3",
+    "opentype.js": "^1.3.4",
+    "p5": "^1.4.2"
+  }
+}
