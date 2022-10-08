@@ -10,16 +10,16 @@ See also how a [whole app](https://github.com/mrehacek/kinetyped) can be based o
 
 # Usage
 
-Download the [script](dist/p5.kinetyped.umd.cjs) and link it to the head section of the document (e.g. index.html) accordingly:
+Insert following <script> tag to the head section of the HTML document (e.g. index.html):
 
 ```html
 <head>
     ...
-    <script src="p5.kinetyped.umd.cjs" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mrehacek/p5.kinetyped@main/dist/p5.kinetyped.umd.cjs" type="text/javascript"></script>
 </head>
 ```
 
-The funtions of the library are then accessible under global variable __p5kt__.
+The funtions of the library are then accessible under global variable __p5kt__, see examples below.
 
 ## Functions
 ### _async_ ```loadFont(fontPath: string)```
