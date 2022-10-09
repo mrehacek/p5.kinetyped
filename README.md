@@ -7,9 +7,27 @@ The library is written in TypeScript and uses [_opentype.js_](https://github.com
 
 See also how a [whole app](https://github.com/mrehacek/kinetyped) can be based on that.
 
-# Usage
+# Usage (installation)
 
-### If using p5 editor
+### CDN
+
+Insert following `<script>` tag to the head section of the HTML document (e.g. index.html):
+
+```html
+<head>
+  ...
+  <script
+    src="https://cdn.jsdelivr.net/gh/mrehacek/p5.kinetyped@main/dist/p5.kinetyped.umd.js"
+    type="text/javascript"
+  ></script>
+</head>
+```
+
+The functions of the library are then accessible in sketch under global variable **p5kt**, see examples below.
+
+### Alternative method
+
+If previous method doesn't work or you want to work offline:
 
 - Open [this js file](https://github.com/mrehacek/p5.kinetyped/blob/main/dist/p5.kinetyped.umd.cjs) from _/dist_ folder of this repository.
 
@@ -23,8 +41,6 @@ See also how a [whole app](https://github.com/mrehacek/kinetyped) can be based o
   <script src="p5.kinetyped.js" type="text/javascript"></script>
 </head>
 ```
-
-The functions of the library are then accessible in sketch under global variable **p5kt**, see examples below.
 
 ## Functions
 
