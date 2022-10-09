@@ -1,16 +1,15 @@
 {
   "name": "p5.kinetyped",
   "version": "0.1.0",
-  "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/p5.kinetyped.umd.cjs",
-  "module": "./dist/p5.kinetyped.js",
+  "main": "./dist/p5.kinetyped.umd.js",
+  "module": "./dist/p5.kinetyped.mjs",
   "exports": {
     ".": {
-      "import": "./dist/p5.kinetyped.js",
-      "require": "./dist/p5.kinetyped.umd.cjs"
+      "import": "./dist/p5.kinetyped.mjs",
+      "require": "./dist/p5.kinetyped.umd.js"
     }
   },
   "scripts": {

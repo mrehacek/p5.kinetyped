@@ -8,8 +8,10 @@ export default defineConfig({
       entry: resolve(__dirname, "lib/main.ts"),
       name: "p5kt",
       // the proper extensions will be added
+      formats: ["umd"],
       fileName: "p5.kinetyped",
     },
+    sourcemap: true,
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
       // into your library
